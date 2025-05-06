@@ -1,0 +1,10 @@
+text - #222831
+background - #EEEEEE
+primary - #75ABAE
+secondary - #31363F
+accent - #75ABAE
+gray - #C1C2C5
+
+light mode website
+
+formularz- ankieta na temat serwisu

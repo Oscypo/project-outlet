@@ -1,0 +1,335 @@
+* {
+	scroll-behavior: smooth;
+}
+body {
+	background-color: white;
+	box-sizing: border-box;
+	margin: 0;
+	color: #222831;
+	font-family: "Poppins", sans-serif;
+}
+header {
+	background-color: white;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	border-bottom: 1px solid;
+	user-select: none;
+}
+.nazwailogo {
+	width: 20%;
+	font-size: 15px;
+}
+nav {
+	width: 80%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 20px;
+}
+a {
+	color: #222831;
+	text-decoration: none;
+}
+.welcome {
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	margin-top: 90px;
+	height: 650px;
+	width: 90%;
+	overflow: hidden;
+	border-radius: 25px;
+}
+.wprowadzenie {
+	width: 40%;
+	padding: 10px;
+}
+.tekst1 {
+	font-size: 80px;
+	margin: 0;
+}
+.obraz1 {
+	overflow: hidden;
+	display: flex;
+	width: 100%;
+	background-image: url("images/welcome.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: transform 0.2s;
+}
+.obrazjeden {
+	overflow: hidden;
+	display: flex;
+	width: 60%;
+	border-radius: 25px;
+}
+.marki {
+	animation: gradient 4s infinite;
+	text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@keyframes gradient {
+	0% {
+		color: #75abae;
+	}
+	50% {
+		color: #3c797c;
+	}
+	100% {
+		color: #75abae;
+	}
+}
+.aplikacja {
+	background-color: #75abae;
+	padding: 10px;
+	border-radius: 10px;
+	margin-right: 5px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.zakupy {
+	background-color: #c1c2c5;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.obraz1:hover {
+	transform: scale(1.2);
+}
+.center {
+	display: flex;
+	justify-content: center;
+}
+.przeceny {
+	margin-top: 45px;
+	width: 90%;
+}
+.ostatnie {
+	text-align: center;
+	font-size: 30px;
+}
+.boxy {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 100px;
+}
+.box {
+	background-color: #c1c2c5;
+	width: 320px;
+	height: 550px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.but {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	background-color: yellow;
+	transition: transform 0.2s;
+}
+.butoutside {
+	overflow: hidden;
+	display: flex;
+	height: 80%;
+	width: 100%;
+}
+.image_1 {
+	background-image: url("images/jeden.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.image_2 {
+	background-image: url("images/dwa.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.image_3 {
+	background-image: url("images/trzy.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.image_4 {
+	background-image: url("images/cztery.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.image_5 {
+	background-image: url("images/piec.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.napis {
+	height: 20%;
+	font-size: 25px;
+	padding: 5px;
+	text-align: center;
+}
+.but:hover {
+	transform: scale(1.2);
+}
+.fashion {
+	display: flex;
+	margin-top: 90px;
+	height: 650px;
+	width: 90%;
+	overflow: hidden;
+	border-radius: 25px;
+	background-image: url("images/balancing-1868051_1920.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 100px;
+}
+.moda {
+	padding: 10px;
+	width: 60%;
+	text-align: center;
+	font-size: 25px;
+}
+footer {
+	background-image: url("images/wave1.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 500px;
+}
+.appdownload {
+	background-color: #222831;
+	color: white;
+	display: flex;
+	height: 550px;
+	width: 90%;
+	border-radius: 25px;
+	transition: transform 0.2s;
+}
+.appdownload:hover {
+	transform: scale(1.05);
+}
+.logoapki {
+	width: 40%;
+	background-image: url("images/logo.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.tekstapka {
+	width: 60%;
+	padding: 10px;
+}
+.hadwa {
+	font-size: 100px;
+	text-align: left;
+	margin: 0;
+}
+.fashion {
+	width: 0%;
+	transition: all 2s;
+}
+
+.show {
+	width: 90%;
+}
+aside {
+	width: 90%;
+	height: 250px;
+	margin-top: 100px;
+	border-radius: 25px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	filter: saturate(0);
+	transition: filter 1s;
+}
+.reklama {
+	color: white;
+	text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	font-size: 90px;
+	position: absolute;
+	z-index: 1;
+	transition: color 0.7s;
+}
+.reklama:hover {
+	/* animation: gradient2 1s ease; */
+	color: #75abae;
+}
+aside:hover {
+	filter: saturate(1);
+}
+.mininav1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 30px;
+	background-color: white;
+	position: absolute;
+	left: -98.3%;
+	transition: left 0.5s ease;
+}
+.mininav1:hover {
+	left: 0;
+}
+.burger {
+	width: 30px;
+	height: 30px;
+	background-image: url("images/burger-bar.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.newsletter{
+	display: flex;
+	margin-top: 9vh;
+	height: 65vh;
+	width: 90%;
+	border-radius: 2.5vh;
+	margin-bottom: 10vh;
+	background-color: #C1C2C5;
+}
+.newsnapis{
+	width: 50%;
+	height: 100%;
+	padding: 2vh;
+}
+.hajeden{
+	font-size: 9vh;
+	margin: 0;
+}
+.pe{
+	font-size: 3vh;
+}
+.formularz{
+	width: 50%;
+	padding: 4vh 2vh;
+}
+input[type=email], select {
+	width: 100%;
+	padding: 1.2vh 2vh;
+	margin: .8vh 0;
+	display: inline-block;
+	border: .1vh solid #ccc;
+	border-radius: .4vh;
+	box-sizing: border-box;
+  }
+  input[type=submit], select {
+	width: 100%;
+	padding: 2vh 2vh;
+	margin: .8vh 0;
+	display: inline-block;
+	border: .1vh solid #ccc;
+	border-radius: .4vh;
+	font-size: 3vh;
+  }
+  .insideform{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+.insideinside{
+	padding: 2vh;
+}
+.label{
+	font-size: 2.5vh;
+}
+.opcjeha{
+	font-size: 3vh;
+	text-align: center;
+	margin: 1vh;
+}
